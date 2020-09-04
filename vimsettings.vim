@@ -416,3 +416,8 @@ function! VisualSelection(direction, extra_filter) range
     let @/ = l:pattern
     let @" = l:saved_reg
 endfunction
+
+if $TERM_PROGRAM =~ "st-256color"
+  " reset cursor when vim exits
+  au VimLeave * set guicursor=a:ver25-blinkon0
+endif

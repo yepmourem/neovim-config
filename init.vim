@@ -9,3 +9,8 @@ source ~/.config/nvim/vimsettings.vim
 source ~/.config/nvim/filetypes.vim 
 source ~/.config/nvim/extended.vim 
 source ~/.config/nvim/general.vim
+
+if $TERM_PROGRAM =~ "st-256color"
+  " reset cursor when vim exits
+  au VimLeave * set guicursor=a:ver25-blinkon0
+endif
