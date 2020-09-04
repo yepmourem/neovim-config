@@ -1,0 +1,12 @@
+{
+  "coc.preferences.useQuickfixForLocations": true,
+  "coc.preferences.snippets.enable": true,
+  "coc.preferences.extensionUpdateCheck": "never",
+  "suggest.snippetIndicator": "",
+	"suggest.noselect": false,
+	"suggest.triggerAfterInsertEnter": true,
+	"suggest.fixInsertedWord": true,
+	"suggest.numberSelect": true,
+	"suggest.acceptSuggestionOnCommitCharacter": true
+}
+
